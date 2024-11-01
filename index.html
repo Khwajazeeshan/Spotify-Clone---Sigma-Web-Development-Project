@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="svgs/fav-icon.jpg" type="image/jpg">
+    <title>Spotify - Web Player: Music for everyone</title>
+</head>
+
+<body>
+    <!-- Main Container -->
+    <div class="container flex">
+        <!-- Left box, Home box, Library box, footer -->
+        <div class="left-box ">
+            <div class="home-box border">
+                <div class="first-left flex">
+                    <div class="logo invert "><img src="svgs/spotify.svg" alt=""></div>
+                    <div class="close"><img src="svgs/close.svg" alt=""></div>
+                </div>
+                <ul>
+                    <li>
+                        <div class="home flex  gap width cursor ">
+                            <div>
+                                <img src="svgs/home.svg" alt="Home">
+                            </div>
+                            <div>
+                                <h3 class="p home-hv">Home</h3>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="search flex invert gap width color cursor">
+                            <div>
+                                <img src="svgs/search.svg" alt="search">
+                            </div>
+                            <div>
+                                <h3 class="search-hv"> Search</h3>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="library-box border ">
+                <div class="header flex">
+                    <div class="library flex gap width color invert cursor">
+                        <img src="svgs/library.svg" alt="Your library">PlayList
+                    </div>
+                    <div class="plus-btn invert  ">
+                        <button>
+                            <div class="plus-btn-hv cursor"><img src="svgs/plus.svg" alt=""></div>
+                        </button>
+                    </div>
+                </div>
+                <div class="song-list ">
+                    <ul>
+                    </ul>
+                </div>
+                <div class="footer flex invert ">
+                    <div><a href="https://www.spotify.com/pk-en/safetyandprivacy/"><span>Privacy </span></a></div>
+                    <div><a href="https://www.spotify.com/pk-en/legal/privacy-policy/"><span>Policy</span></a></div>
+                    <div><a href="https://www.spotify.com/pk-en/legal/cookies-policy/"><span>Cookies</span></a></div>
+                    <div><a href="https://www.spotify.com/pk-en/legal/"><span>Legal</span></a></div>
+                    <div><a href="https://www.spotify.com/pk-en/legal/privacy-policy/#s3"><span>About</span></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Right box,  -->
+        <div class="right-box border ">
+            <div class="nav flex">
+                <div class="two-btn flex">
+                    <div class="hamburger">
+                        <img src="svgs/hamburger.svg" alt="">
+                    </div>
+                    <div class="arrow-btn invert ">
+                        <button>
+                            <div class="btn-1"><img src="svgs/right-arrow.svg" alt=""></div>
+                        </button>
+                        <button>
+                            <div class="btn-2"><img src="svgs/left-arrow.svg" alt=""></div>
+                        </button>
+                    </div>
+                </div>
+                <div class="sign-btn flex ">
+                    <div>
+                        <button class="sign  cursor"><a class=" sign"
+                                href="https://www.spotify.com/pk-en/signup?forward_url=https%3A%2F%2Fopen.spotify.com%2F">Sign
+                                up</a></button>
+                    </div>
+                    <div>
+                        <button class="log cursor "><a
+                                href="https://accounts.spotify.com/en/login?continue=https%3A%2F%2Fopen.spotify.com%2F">Log
+                                in</a></button>
+                    </div>
+                </div>
+            </div>
+            <div class="main-container">
+                <!-- Artist Container 01 --- Popular Artist-->
+                <div class="popular">
+                    <div>
+                        <h1 class="h2">Popular Albums</h1>
+                    </div>
+                </div>
+                <div class="artist-container "></div>
+                <div class="seprate spr-1"></div>
+                <!-- About Container -->
+                <div class="about flex">
+                    <!-- About 01 -->
+                    <div class="about1 ">
+                        <div class=" ab1-dv flex invert">
+                            <div>
+                                <ul role="list">
+                                    <p>Company</p>
+                                    <div>
+                                        <a href="https://www.spotify.com/pk-en/about-us/contact/" role="link">
+                                            <span>About</span>
+                                        </a>
+                                    </div>
+                                    <div>
+                                        <a href="https://www.lifeatspotify.com/" role="link">
+                                            <span>Jobs</span>
+                                        </a>
+                                    </div>
+                                    <div>
+                                        <a href="https://newsroom.spotify.com/" role="link">
+                                            <span>For the Record</span>
+                                        </a>
+                                    </div>
+                                </ul>
+                            </div>
+                            <div>
+                                <ul role="list">
+                                    <p>Communities</p>
+                                    <div>
+                                        <a href="https://artists.spotify.com/" role="link">
+                                            <span>For Artists</span>
+                                        </a>
+                                    </div>
+                                    <div>
+                                        <a href="https://developer.spotify.com/" role="link">
+                                            <span>Developers</span>
+                                        </a>
+                                    </div>
+                                    <div>
+                                        <a href="https://ads.spotify.com/" role="link">
+                                            <span>Advertising</span>
+                                        </a>
+                                    </div>
+                                    <div>
+                                        <a href="https://investors.spotify.com/" role="link">
+                                            <span>Investors</span>
+                                        </a>
+                                    </div>
+                                    <div>
+                                        <a href="https://spotifyforvendors.com/" role="link">
+                                            <span>Vendors</span>
+                                        </a>
+                                    </div>
+                                </ul>
+                            </div>
+                            <div>
+                                <ul role="list">
+                                    <p>Useful links</p>
+                                    <div>
+                                        <a href="https://support.spotify.com/" role="link">
+                                            <span>Support</span>
+                                        </a>
+                                    </div>
+                                    <div>
+                                        <a href="https://www.spotify.com/pk-en/free/" role="link">
+                                            <span>Free Mobile App</span>
+                                        </a>
+                                    </div>
+                                </ul>
+                            </div>
+                            <div>
+                                <ul role="list">
+                                    <p>Spotify Plans</p>
+                                    <div>
+                                        <a href="https://www.spotify.com/pk-en/premium/?ref=spotifycom_footer_premium_individual"
+                                            role="link">
+                                            <span>Premium Individual</span>
+                                        </a>
+                                    </div>
+                                    <div>
+                                        <a href="https://www.spotify.com/pk-en/duo/?ref=spotifycom_footer_premium_duo"
+                                            role="link">
+                                            <span>Premium Duo</span>
+                                        </a>
+                                    </div>
+                                    <div>
+                                        <a href="https://www.spotify.com/pk-en/family/?ref=spotifycom_footer_premium_family"
+                                            role="link">
+                                            <span>Premium Family</span>
+                                        </a>
+                                    </div>
+                                    <div>
+                                        <a href="https://www.spotify.com/pk-en/student/?ref=spotifycom_footer_premium_student"
+                                            role="link">
+                                            <span>Premium Student</span>
+                                        </a>
+                                    </div>
+                                    <div>
+                                        <a href="https://www.spotify.com/pk-en/free/?ref=spotifycom_footer_free"
+                                            role="link">
+                                            <span>Spotify Free</span>
+                                        </a>
+                                    </div>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- About 02 -->
+                    <div class="about2 flex ">
+                        <div class="insta ab-hover">
+                            <a href="https://instagram.com/spotify"><img src="svgs/insta.svg" alt=""></a>
+                        </div>
+                        <div class="twitter ab-hover">
+                            <a href="https://twitter.com/spotify"><img src="svgs/twitter.svg" alt=""></a>
+                        </div>
+                        <div class="facebook ab-hover">
+                            <a href="https://www.facebook.com/Spotify"><img src="svgs/facebook.svg" alt=""></a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Seprate Line -->
+                <div class="seprate">
+                </div>
+                <div class="last-txt">
+                    <p>© 2024 Spotify AB</p>
+                </div>
+            </div>
+            <div class="play-bar">
+                <div class="bar-div flex">
+                    <div class="song-info"></div>
+                    <div class="song-btn flex ">
+                        <div>
+                            <img id="previous" class="cursor" src="svgs/previous.svg" alt="">
+                        </div>
+                        <div> <img id="play" class="cursor" src="svgs/play.svg" alt=""></div>
+                        <div> <img id="next" class="cursor" src="svgs/next.svg" alt=""></div>
+                    </div>
+                    <div class="vol-time flex">
+                        <div class="song-time"></div>
+                        <div class="volumeBar flex cursor ">
+                            <div class="vol-img ">
+                                <img id="Volume" class="cursor" src="svgs/volume.svg" alt="">
+                            </div>
+                            <div class="range ">
+                                <input type="range" name="volume" id="vol-range" class="cursor">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="seekBar cursor ">
+                    <div class="circle cursor"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

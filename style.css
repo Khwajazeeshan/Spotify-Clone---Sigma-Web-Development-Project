@@ -1,0 +1,1017 @@
+/* ********************************************************** Main CSS ********************************************************** */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+    color: white;
+}
+
+.container {
+    overflow: hidden;
+    height: 99vh;
+}
+
+/* *********** Css Code For Left Box *********** */
+.left-box {
+    width: 25vw;
+    background-color: #121212;
+    height: 97vh;
+}
+
+.home-box {
+    padding: 12px 0px 0px 24px;
+    height: 20vh;
+}
+
+.first-left {
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 10px;
+    margin-bottom: 25px;
+}
+
+.logo {
+    width: 120px;
+    height: 32px;
+}
+
+.logo img {
+    width: 125px;
+}
+
+.close {
+    display: none;
+}
+
+.home-box ul li {
+    padding-top: 10px;
+    list-style: none;
+}
+
+ul li .home {
+    width: 200px;
+    font-weight: bolder;
+    padding-top: 6px;
+    padding-bottom: 6px;
+}
+
+.home div {
+    width: 20px;
+}
+
+ul li .search {
+    width: 200px;
+    padding-bottom: 18px;
+    font-weight: 800;
+}
+
+.search div {
+    width: 20px;
+}
+
+.library-box {
+    padding: 0px 0px 0px 18px;
+    position: relative;
+    height: 74vh;
+    font-size: 18px;
+    font-weight: 800;
+}
+
+.header {
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px 10px 0px;
+}
+
+.plus-btn button {
+    width: 22px;
+    border: 0px;
+}
+
+.song-list {
+    width: 94%;
+    padding: 5px;
+    height: 59vh;
+    overflow-y: scroll;
+}
+
+.song-list ul li {
+    list-style-type: none;
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #bdbbbb;
+    border-radius: 5px;
+    margin-top: 5px;
+    gap: 15px;
+    width: 90%;
+    font-size: 14px;
+    color: #adabab;
+}
+
+.list {
+    justify-content: space-between;
+    align-items: center;
+}
+
+.boxWidth {
+    width: 180px;
+    word-wrap: break-word;
+}
+
+.song-list-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 33px;
+    padding-right: 8px;
+    height: 22px;
+}
+
+.footer {
+    font-size: 12px;
+    gap: 10px;
+    position: absolute;
+    bottom: 18px;
+    width: 80%;
+    height: 24px;
+}
+
+.footer div {
+    width: 50px;
+}
+
+.footer a {
+    color: #807777;
+    text-decoration: none;
+}
+
+/* *********** Css Code For Right Box *********** */
+.right-box {
+    width: 75vw;
+    height: 97vh;
+    background-color: #121212;
+    position: relative;
+    overflow: hidden;
+}
+
+.nav {
+    background-color: #070707;
+    justify-content: space-between;
+    height: 8vh;
+    align-items: center;
+    padding: 0px 18px;
+    width: 73vw;
+}
+
+.hamburger {
+    display: none;
+}
+
+.two-btn {
+    justify-content: space-around;
+    align-items: center;
+    width: 130px;
+}
+
+.arrow-btn button {
+    width: 22px;
+    cursor: pointer;
+    border: 0px;
+    border-radius: 30px;
+    background-color: white;
+}
+
+.sign-btn {
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.sign-btn div {
+    width: 88px;
+}
+
+.sign-btn .sign {
+    font-weight: 900;
+    font-size: 16px;
+    background-color: #070707;
+    border: 0px;
+    color: #adabab;
+}
+
+.sign-btn .log {
+    padding: 12px 20px;
+    border-radius: 30px;
+    font-weight: 700;
+    background-color: white;
+    font-size: 14px;
+    border: 0px;
+}
+
+.sign-btn .log>a {
+    color: black;
+}
+
+.main-container {
+    overflow-y: scroll;
+    height: 78vh;
+    margin: 3px 0px;
+}
+
+.popular {
+    padding: 7px 0px 0px 10px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.artist-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    padding: 5px 15px 30px 10px;
+}
+
+.artist {
+    position: relative;
+    width: 170px;
+    padding: 8px 0px 0px 10px;
+    transition: all 1s;
+}
+
+.artist img {
+    width: 150px;
+    height: 150px;
+    border-radius: 150px;
+    object-fit: cover;
+}
+
+.image-container {
+    position: relative;
+    width: 80%;
+}
+
+.play-button {
+    position: absolute;
+    bottom: 10px;
+    right: 5px;
+    width: 55px;
+    height: 55px;
+    display: none;
+}
+
+.artist p {
+    color: #a3a2a2;
+}
+
+.about {
+    justify-content: space-evenly;
+    padding: 50px 30px;
+    height: 20vh;
+}
+
+.about1 {
+    height: 185px;
+}
+
+.ab1-dv {
+    gap: 60px;
+    height: 170px;
+}
+
+.ab1-dv p {
+    color: black;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.ab1-dv a {
+    color: #5a5757;
+    font-size: 16px;
+    text-decoration: none;
+    font-weight: 800;
+}
+
+.ab1-dv ul div {
+    width: 160px;
+    padding: 5px 0px;
+}
+
+.about2 {
+    gap: 30px;
+    padding: 0px 20px;
+    height: 50px;
+}
+
+.about2 div {
+    width: 25px;
+    height: 25px;
+    background-color: #292929;
+    padding: 10px 10px 7px 10px;
+    border-radius: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.about2 img {
+    width: 20px;
+    height: 20px;
+}
+
+.seprate {
+    width: 100%;
+    height: 1px;
+    background-color: #333131;
+    border-radius: 70px;
+}
+
+.spr-1 {
+    margin-top: 25px;
+}
+
+.last-txt {
+    padding: 35px 0px 50px 30px;
+    color: #a3a2a2;
+    font-weight: 600;
+}
+
+.play-bar {
+    background-color: #1d1b1b;
+    width: 100%;
+    height: 10vh;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.bar-div {
+    justify-content: space-between;
+    align-items: center;
+    width: 96%;
+    padding: 14px 10px;
+}
+
+.song-info {
+    width: 250px;
+    height: 38px;
+    word-wrap: break-word;
+    overflow: hidden;
+    color: #adabab;
+    margin-left: 8px;
+}
+
+.song-btn {
+    gap: 16px;
+    width: 200px;
+    justify-content: center;
+    align-items: center;
+}
+
+.song-btn img {
+    width: 30px;
+    color: #adabab;
+}
+
+.vol-time {
+    justify-content: space-between;
+    align-items: center;
+    width: 280px;
+    gap: 25px;
+}
+
+.volumeBar {
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 10px;
+}
+
+.vol-img img {
+    width: 30px;
+}
+
+.seekBar {
+    height: 3px;
+    width: 96%;
+    background-color: #a3a2a2;
+    border-radius: 200px;
+    margin-left: 12px;
+    margin-bottom: 22px;
+}
+
+.circle {
+    width: 14px;
+    height: 14px;
+    border-radius: 30px;
+    background-color: #a3a2a2;
+    position: relative;
+    bottom: 6px;
+    transition: left 0.5s;
+}
+
+/* ********************************************************** Utility CSS ********************************************************** */
+
+.flex {
+    display: flex;
+}
+
+.invert {
+    filter: invert(1);
+}
+
+.gap {
+    gap: 15px;
+}
+
+.border {
+    border: 5px solid black;
+    border-radius: 10px;
+}
+
+.width {
+    width: 20px;
+}
+
+.color {
+    color: #363030;
+}
+
+.cursor {
+    cursor: pointer;
+}
+
+.pics-btn {
+    width: 50px;
+    height: 50px;
+}
+
+/* Scrollbar styles for WebKit browsers (Chrome, Safari) */
+::-webkit-scrollbar {
+    width: 10px;
+    height: 0px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #333;
+    border-radius: 150px;
+}
+
+::-webkit-scrollbar-track {
+    background: #222;
+}
+
+/* ********************************************************** Hover CSS ********************************************************** */
+
+/* ***************** Left Box ***************** */
+.home-hv:hover {
+    text-decoration: underline;
+    font-size: 1.1rem;
+}
+
+.search-hv:hover {
+    color: black;
+    text-decoration: underline;
+    font-size: 1.1em;
+}
+
+.library:hover {
+    color: black;
+    text-decoration: underline;
+    font-size: 1.2rem;
+}
+
+.plus-btn :hover {
+    background-color: rgb(201, 196, 196);
+    border-radius: 30px;
+}
+
+.song-list ul li:hover {
+    background-color: rgb(36, 35, 35);
+}
+
+.song-list-img :hover {
+    width: 39px;
+    height: 28px;
+}
+
+a:hover {
+    color: black;
+    text-decoration: underline;
+    font-size: 1.1em;
+}
+
+/* ***************** Right Box ***************** */
+.btn-1:hover {
+    background-color: rgb(201, 196, 196);
+    padding: 2px;
+    border-radius: 30px;
+}
+
+.btn-2:hover {
+    background-color: rgb(201, 196, 196);
+    padding: 2px;
+    border-radius: 30px;
+}
+
+.sign:hover {
+    color: white;
+    text-decoration: underline;
+    font-size: 18px;
+}
+
+.artist:hover {
+    background-color: rgb(36, 35, 35);
+}
+
+.artist :hover .play-button {
+    display: flex;
+}
+
+.about2 div:hover {
+    background-color: rgb(131, 129, 129);
+}
+
+#previous:hover {
+    background-color: rgb(54, 54, 54);
+    border-radius: 100px;
+}
+
+#play:hover {
+    background-color: rgb(54, 54, 54);
+    border-radius: 100px;
+}
+
+#next:hover {
+    background-color: rgb(54, 54, 54);
+    border-radius: 100px;
+}
+
+#Volume:hover {
+    background-color: rgb(54, 54, 54);
+    border-radius: 100px;
+}
+
+/* ********************************************************** Responsiveness CSS ********************************************************** */
+
+@media (min-width: 3500px) {
+    .boxWidth {
+        width: 220px;
+    }
+}
+
+@media (min-width: 1950px) {
+    .boxWidth {
+        width: 280px;
+        word-wrap: break-word;
+    }
+
+    .artist-container {
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    }
+
+    .about {
+        justify-content: space-around;
+        padding: 50px 30px;
+    }
+
+    .bar-div {
+        margin: 18px 0px;
+    }
+}
+
+@media (max-width: 1450px) {
+    .container {
+        height: 100vh;
+        padding: 0px;
+        overflow: hidden;
+    }
+
+    /* ********* css for Left box ******** */
+    .left-box {
+        position: absolute;
+        left: -120%;
+        transition: all 1s;
+        z-index: 1000;
+        width: 383px;
+        height: 82%;
+        top: 7%;
+    }
+
+    .home-box {
+        padding: 5px 0px 0px 8px;
+        height: 15vh;
+    }
+
+    .first-left {
+        margin-bottom: 5px;
+    }
+
+    .library-box {
+        height: 64vh;
+    }
+
+    .song-list {
+        height: 50vh;
+    }
+
+    .hamburger {
+        display: block;
+    }
+
+    .close {
+        display: block;
+    }
+
+    .close img {
+        width: 30px;
+        cursor: pointer;
+    }
+
+    .boxWidth {
+        width: 155px;
+    }
+
+    .footer {
+        bottom: 10px;
+    }
+
+    /* ********* css for right box ******** */
+    .right-box {
+        width: 100%;
+        height: 99vh;
+    }
+
+    .nav {
+        width: 99vw;
+        height: 6vh;
+        padding: 0px;
+        background-color: black;
+    }
+
+    .main-container {
+        height: 80vh;
+    }
+
+    .artist {
+        margin-bottom: 18px;
+    }
+
+    .play-bar {
+        height: 10vh;
+    }
+
+    .bar-div {
+        margin: 10px 0px;
+    }
+
+
+}
+
+@media (max-width: 1130px) {
+    .container {
+        height: 100vh;
+        padding: 0px;
+        overflow: hidden;
+    }
+
+    /* ********* css for Left box ******** */
+    .left-box {
+        position: absolute;
+        left: -120%;
+        transition: all 1s;
+        z-index: 1000;
+        width: 383px;
+        height: 82%;
+        top: 7%;
+    }
+
+    .home-box {
+        padding: 5px 0px 0px 8px;
+        height: 15vh;
+    }
+
+    .first-left {
+        margin-bottom: 5px;
+    }
+
+    .search {
+        display: none;
+    }
+
+    .library-box {
+        height: 64vh;
+    }
+
+    .song-list {
+        height: 47vh;
+    }
+
+    .hamburger {
+        display: block;
+    }
+
+    .close {
+        display: block;
+    }
+
+    .close img {
+        width: 30px;
+        cursor: pointer;
+    }
+
+    .boxWidth {
+        width: 155px;
+    }
+
+    .footer {
+        bottom: 10px;
+    }
+
+    /* ********* css for right box ******** */
+    .right-box {
+        width: 100%;
+        height: 99vh;
+    }
+
+    .nav {
+        width: 99vw;
+        height: 6vh;
+        padding: 0px;
+        background-color: black;
+    }
+
+    .main-container {
+        height: 75vh;
+    }
+
+    .artist-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+
+    .artist {
+        margin-bottom: 18px;
+    }
+
+    .about {
+        display: grid;
+        grid-template-columns: 1fr;
+        height: 40vh;
+    }
+
+    .about1 {
+        height: 36vh;
+    }
+
+    .last-txt {
+        padding: 30px 0px 45px 30px;
+    }
+
+    .play-bar {
+        height: 9vh;
+    }
+}
+
+
+@media (max-width: 860px) {
+    .song-list {
+        height: 52vh;
+    }
+
+    .main-container {
+        height: 82vh;
+    }
+
+    .artist-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .artist {
+        margin-bottom: 18px;
+    }
+
+    .vol-time {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .bar-div {
+        height: 3vh;
+    }
+
+    .play-bar {
+        height: 14vh;
+    }
+
+    .vol-time {
+        gap: 5px;
+        width: 200px;
+    }
+
+    .about {
+        height: 48vh;
+    }
+
+    .about1 {
+        height: 45vh;
+    }
+
+    .ab1-dv {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        height: 20vh;
+    }
+
+    .ab1-dv p {
+        font-size: 30px;
+    }
+
+    .ab1-dv a {
+        font-size: 18px;
+    }
+
+    .about2 {
+        justify-content: center;
+        gap: 200px;
+    }
+
+}
+
+@media (max-width: 580px) {
+    .first-left {
+        margin-bottom: 25px;
+    }
+
+    .sign-btn {
+        gap: 12px;
+    }
+
+    .artist-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .artist {
+        margin-bottom: 18px;
+    }
+
+    .volumeBar {
+        display: none;
+    }
+
+    .bar-div {
+        margin: 18px 0px;
+    }
+
+    .play-bar {
+        height: 16vh;
+    }
+
+    .vol-time {
+        width: 150px;
+    }
+
+    .about2 {
+        gap: 80px;
+    }
+}
+
+@media (max-width: 450px) {
+    .right-box {
+        overflow: hidden;
+    }
+
+    .left-box {
+        width: 280px;
+        height: 75vh;
+    }
+
+    .first-left {
+        margin-bottom: 2px;
+    }
+
+    .library-box {
+        height: 57vh;
+    }
+
+    .main-container {
+        height: 80vh;
+    }
+
+    .sign-btn {
+        gap: 12px;
+    }
+
+    .artist-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .artist {
+        margin-bottom: 18px;
+        width: 140px;
+    }
+
+    .artist img {
+        width: 120px;
+        height: 120px;
+    }
+
+    .play-button {
+        right: 5px;
+        width: 50px;
+        height: 50px;
+        display: none;
+    }
+
+    .boxWidth {
+        width: 90px;
+        height: 50px;
+        overflow: hidden
+    }
+
+    .about {
+        height: 100vh;
+    }
+
+    .about1 {
+        height: 97vh;
+    }
+
+    .ab1-dv {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .about2 {
+        gap: 33px;
+    }
+
+    .volumeBar {
+        display: none;
+    }
+
+    .bar-div {
+        margin: 18px 0px;
+    }
+
+    .play-bar {
+        height: 105px;
+    }
+
+    .song-info {
+        width: 150px;
+    }
+
+}
+
+@media (max-width: 390px) {
+    .search {
+        display: none;
+    }
+
+    .main-container {
+        height: 70vh;
+        overflow-x: hidden;
+        padding-right: 10px;
+    }
+
+    .left-box {
+        height: 68vh;
+
+    }
+
+    .library-box {
+        height: 50vh;
+    }
+
+    .sign-btn {
+        gap: 12px;
+    }
+
+    .song-list {
+        height: 39vh;
+    }
+
+    .artist img {
+        width: 120px;
+        height: 120px;
+    }
+
+    .about {
+        height: 130vh;
+    }
+
+    .about1 {
+        height: 125vh;
+    }
+
+}
