@@ -53,3 +53,30 @@ To use this Spotify clone locally, follow these steps:
    ```bash
    git clone https://github.com/khwajazeeshan/Spotify-Clone.git
    cd Spotify-Clone
+
+2. *Open the HTML file*  
+   Simply open index.html in a browser to start the app.
+
+## *Usage*
+
+### *Song Playback*
+- Click on any song from the album list to start playback.
+- Use playback controls (play/pause, next, previous) for seamless navigation.
+
+### *Volume and Seek Bar*
+- Adjust volume using the slider and jump within a song using the seek bar.
+
+### *Mobile Navigation*
+- Access the menu using the hamburger icon, and navigate easily between albums and songs.
+
+## *Project Structure*
+
+The project includes the following main files:
+
+- *index.html:* Main structure and layout
+- *styles.css:* All styling for responsive design and layout
+- *script.js:* Main JavaScript file for handling song playback, controls, and album display
+
+## *Contributing*
+
+Feel free to submit issues or pull requests for new features or bug fixes. Contributions to enhance functionality or improve performance are always welcome.
