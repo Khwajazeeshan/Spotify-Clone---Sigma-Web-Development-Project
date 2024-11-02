@@ -1,3 +1,64 @@
+
+URL Shortener and QR Code Generator
+This project is a web application that allows users to shorten URLs and generate QR codes for those shortened URLs. The frontend is built using React, and the backend is developed with Node.js, Express, and MongoDB.
+
+Table of Contents
+Features
+Tech Stack
+Installation
+Usage
+API Endpoints
+Project Structure
+Contributing
+License
+Features
+Shorten long URLs into compact, easily shareable links.
+Generate QR codes for the shortened URLs.
+Track the number of times a shortened URL has been accessed.
+Responsive design for optimal viewing on different devices.
+Tech Stack
+Frontend
+React: Utilized for building the user interface.
+useState: Manage component states.
+React Router: Handle navigation between different pages.
+Context API: Manage global state for sharing data between components.
+Fetch API: Interact with the backend services.
+Backend
+Node.js: Server-side JavaScript runtime.
+Express: Web framework for Node.js to build the API.
+MongoDB (Cloud): Database to store URLs and related data.
+Mongoose: ORM for MongoDB to interact with the database.
+QR Code: Generate QR codes based on the shortened URLs.
+Installation
+Clone the repository:
+git clone https://github.com/Programmerworld55/url-shortener-and-qr-generator.git
+cd url-shortener-and-qr-generator
+Install backend dependencies:
+cd Backend
+npm install
+Install frontend dependencies:
+cd ../Frontend/vite-project
+npm install
+Usage
+Run the backend server:
+cd Backend
+npm start
+
+Run the frontend:
+cd ../Frontend/vite-project
+npm run dev
+Access the application:
+Open your browser and go to http://localhost:3000.
+
+Use the form on the homepage to enter a long URL and click the "Generate short URL" button. The application will display a shortened URL.
+
+Click on "QR Code Generator" and then click on "Generate QR Code." A QR code will be generated, which you can use and download.
+
+Contributing
+Feel free to submit issues or p
+
+
+
 **🎶 Spotify Clone 🎶**
 
 This project is a web application that replicates core Spotify functionalities using HTML, CSS, and JavaScript. It offers users an engaging and familiar music browsing and playback experience, all through a responsive web interface.
