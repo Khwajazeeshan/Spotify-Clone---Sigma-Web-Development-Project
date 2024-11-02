@@ -4,7 +4,7 @@ This project is a web application that replicates core Spotify functionalities u
 
 **Table of Contents**
 
-.Features
+#Features
 
 .Tech Stack
 
