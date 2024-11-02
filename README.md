@@ -2,130 +2,131 @@
 
 This project is a web application that replicates core Spotify functionalities using HTML, CSS, and JavaScript. It offers users an engaging and familiar music browsing and playback experience, all through a responsive web interface.
 
-Table of Contents
+**Table of Contents**
 
-Features
+.Features
 
-Tech Stack
+.Tech Stack
 
-Installation
+.Installation
 
-Usage
+.Usage
 
-Project Structure
+.Project Structure
 
-Contributing
-
-
-Features
-
-Dynamic Song Listing and Display
-
-Automatically lists all songs from designated folders, filtering for .mp3 and .m4a files.
-
-Displays song titles in a scrollable list format, with each song featuring a play icon for easy selection.
-
-Formats song names to remove spaces, ensuring clean, readable titles.
+.Contributing
 
 
-Album Display and Selection
+**Features**
 
-Displays albums on the main page, each with unique cover art and metadata.
+**Dynamic Song Listing and Display**
 
-Clicking an album loads its list of songs, with automatic playback of the first track.
+• Automatically lists all songs from designated folders, filtering for .mp3 and .m4a files.
 
-Provides a play button overlay on each album cover for quick playback.
+• Displays song titles in a scrollable list format, with each song featuring a play icon for easy selection.
 
-
-Music Controls and Playback
-
-Includes play/pause toggle, next/previous track navigation, and a seek bar to jump within a song.
-
-Displays song timer with elapsed time and total duration, dynamically updating during playback.
+• Formats song names to remove spaces, ensuring clean, readable titles.
 
 
-Volume Control and Mute Feature
+**Album Display and Selection**
 
-Volume slider lets users adjust sound smoothly, from mute to maximum.
+• Displays albums on the main page, each with unique cover art and metadata.
 
-Mute button quickly toggles sound on and off, updating the volume icon to reflect the current state.
+• Clicking an album loads its list of songs, with automatic playback of the first track.
 
-
-Responsive Mobile Menu
-
-Hidden left-side menu by default on mobile screens, accessible via a hamburger icon.
-
-Users can close the menu with an 'X' icon for easy navigation.
+• Provides a play button overlay on each album cover for quick playback.
 
 
-Enhanced User Experience
+**Music Controls and Playback**
 
-SVG icons maintain a consistent look with Spotify's style for UI elements like play/pause, seek bar, and volume control.
+• Includes play/pause toggle, next/previous track navigation, and a seek bar to jump within a song.
 
-Optimized for desktop and mobile views to ensure smooth playback and interaction on all devices.
+• Displays song timer with elapsed time and total duration, dynamically updating during playback.
 
 
+**Volume Control and Mute Feature**
 
-Tech Stack
+• Volume slider lets users adjust sound smoothly, from mute to maximum.
 
-Frontend
+• Mute button quickly toggles sound on and off, updating the volume icon to reflect the current state.
 
-HTML: Markup for structure
 
-CSS: Styling and layout for responsive design
+**Responsive Mobile Menu**
 
-JavaScript: Core logic for dynamic song listing, playback controls, and UI interaction
+• Hidden left-side menu by default on mobile screens, accessible via a hamburger icon.
+
+• Users can close the menu with an 'X' icon for easy navigation.
+
+
+**Enhanced User Experience**
+
+• SVG icons maintain a consistent look with Spotify's style for UI elements like play/pause, seek bar, and volume control.
+
+• Optimized for desktop and mobile views to ensure smooth playback and interaction on all devices.
 
 
 
-Installation
+**Tech Stack**
+
+**Frontend**
+
+• **HTML:** Markup for structure
+
+• **CSS:** Styling and layout for responsive design
+
+• **JavaScript:** Core logic for dynamic song listing, playback controls, and UI interaction
+
+
+
+**Installation**
 
 To use this Spotify clone locally, follow these steps:
 
-1. Clone the repository
+1. **Clone the repository**
 
 git clone https://github.com/khwajazeeshan/Spotify-Clone.git
 cd Spotify-Clone
 
 
-2. Open the HTML file
+2. **Open the HTML file**
 
 Simply open index.html in a browser to start the app.
 
 
 
 
-Usage
+**Usage**
 
-Song Playback
+**Song Playback**
 
-Click on any song from the album list to start playback.
+• Click on any song from the album list to start playback.
 
-Use playback controls (play/pause, next, previous) for seamless navigation.
-
-
-Volume and Seek Bar
-
-Adjust volume using the slider and jump within a song using the seek bar.
+• Use playback controls (play/pause, next, previous) for seamless navigation.
 
 
-Mobile Navigation
+**Volume and Seek Bar**
 
-Access the menu using the hamburger icon, and navigate easily between albums and songs.
+• Adjust volume using the slider and jump within a song using the seek bar.
+
+
+**Mobile Navigation**
+
+• Access the menu using the hamburger icon, and navigate easily between albums and songs.
 
 
 
-Project Structure
+**Project Structure**
 
 The project includes the following main files:
 
-index.html: Main structure and layout
+**index.html:** Main structure and layout
 
-styles.css: All styling for responsive design and layout
+**styles.css:** All styling for responsive design and layout
 
-script.js: Main JavaScript file for handling song playback, controls, and album display
+**script.js:** Main JavaScript file for handling song playback, controls, and album display
 
 
-Contributing
+**Contributing**
 
 Feel free to submit issues or pull requests for new features or bug fixes. Contributions to enhance functionality or improve performance are always welcome.
+
