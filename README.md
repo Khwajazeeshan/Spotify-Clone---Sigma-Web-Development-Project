@@ -56,6 +56,7 @@ To use this Spotify clone locally, follow these steps:
  git clone https://github.com/Khwajazeeshan/Spotify-Clone---Sigma-Web-Development-Project.git 
    cd Spotify-Clone
 
+
 2. *Open the HTML file*  
    Simply open index.html in a browser to start the app.
 
