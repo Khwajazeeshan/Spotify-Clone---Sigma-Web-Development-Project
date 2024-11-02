@@ -6,15 +6,15 @@ This project is a web application that replicates core Spotify functionalities u
 
 #Features
 
-.Tech Stack
+##Tech Stack
 
-.Installation
+###Installation
 
-.Usage
+##Usage##
 
-.Project Structure
+###Project Structure###
 
-.Contributing
+#Contributing#
 
 
 **Features**
