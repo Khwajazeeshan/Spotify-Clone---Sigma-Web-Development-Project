@@ -50,9 +50,9 @@ This project is a web application that replicates core Spotify functionalities u
 To use this Spotify clone locally, follow these steps:
 
 
-
 **Clone the repository**
    ```bash
+
  git clone https://github.com/Khwajazeeshan/Spotify-Clone---Sigma-Web-Development-Project.git 
    cd Spotify-Clone
 
